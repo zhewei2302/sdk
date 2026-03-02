@@ -15,13 +15,14 @@
 name: Detect New NETSDK Diagnostics
 
 on:
+  workflow_dispatch:
   # Use pull_request_target for safe execution from forks
   # This runs in the context of the base branch, not the PR head
-  pull_request_target:
-    types: [opened, synchronize]
-    branches:
-      - main
-      - release/*
+  # pull_request_target:
+  #   types: [opened, synchronize]
+  #   branches:
+  #     - main
+  #     - release/*
 
 permissions: read-all
 

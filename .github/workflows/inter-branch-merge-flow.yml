@@ -1,8 +1,9 @@
 name: Inter-branch merge workflow
 on:
-  push:
-    branches:
-      - release/**
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - release/**
 
 permissions:
   contents: write

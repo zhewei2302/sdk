@@ -1,7 +1,8 @@
 name: PR Analysis
 on:
-  pull_request_target:
-    types: [opened, synchronize, labeled, unlabeled, ready_for_review]
+  workflow_dispatch:
+  # pull_request_target:
+  #   types: [opened, synchronize, labeled, unlabeled, ready_for_review]
 permissions:
   contents: read
   pull-requests: read

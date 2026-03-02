@@ -1,7 +1,8 @@
 name: Backport PR to branch
 on:
-  issue_comment:
-    types: [created]
+  workflow_dispatch:
+  # issue_comment:
+  #   types: [created]
 
 permissions:
   contents: write

@@ -1,8 +1,9 @@
 name: Fix completion snapshots on command
 
 on:
-  issue_comment:
-    types: [created]
+  workflow_dispatch:
+  # issue_comment:
+  #   types: [created]
 
 permissions:
   contents: read
