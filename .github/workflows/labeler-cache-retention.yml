@@ -10,8 +10,8 @@ name: "Labeler: Cache Retention"
 # https://docs.github.com/actions/writing-workflows/choosing-what-your-workflow-does/caching-dependencies-to-speed-up-workflows#usage-limits-and-eviction-policy
 
 on:
-  schedule:
-    - cron: "39 3 * * *" # 3:39 every day (arbitrary time daily, modified to different values in each repository)
+  # schedule:
+  #   - cron: "39 3 * * *" # 3:39 every day (arbitrary time daily, modified to different values in each repository)
 
   workflow_dispatch:
     inputs:
